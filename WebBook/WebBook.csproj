@@ -218,10 +218,13 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\daotinh.jpg" />
     <Content Include="Images\dutinh.jpg" />
+    <Content Include="Images\hinh-nen-dep-2.jpg" />
     <Content Include="Images\khachsanhoangtuyen.jpg" />
     <Content Include="Images\muoihainam.jpg" />
     <Content Include="Images\tayxuatngocmon.jpg" />
     <Content Include="Images\time.png" />
+    <Content Include="Images\tải xuống %281%29.jpg" />
+    <Content Include="Images\tải xuống.jpg" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -282,6 +285,8 @@
     <Content Include="Views\Book\ListBook.cshtml" />
     <Content Include="Views\Book\ListBookModel.cshtml" />
     <Content Include="Views\Book\Index.cshtml" />
+    <Content Include="Views\Book\EditBook.cshtml" />
+    <Content Include="Views\Book\CreateBook.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

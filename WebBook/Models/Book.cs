@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -28,21 +29,27 @@ namespace WebBook.Models
         public int Id
         {
             get { return id; }
+            set { id = value; }
         }
-
+        [Required(ErrorMessage = " Tieu de khong duoc trong")]
+        [StringLength(250,ErrorMessage ="Tieu de sach khong duoc vuot qua 250 ky tu")]
+        [Display(Name = "Tieu de")]
         public string Title
         {
             get { return title; }
+            set { this.Title = value; }
         }
 
         public string Author
         {
             get { return author; }
+            set { this.Author = value; }
         }
 
         public string ImageCover
         {
             get { return image_cover; }
+            set { this.ImageCover = value; }
         }
     }
 }
